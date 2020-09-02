@@ -13,7 +13,7 @@ function Row(props) {
 		<div className="Note_Row" key={"note" + props.index}>
 			<div className='title'>{props.value.title}</div>
 
-			<Link to="/Editor" className='btnEdit'>
+			<Link to="/Notepad/Editor" className='btnEdit'>
 				<AwesomeButton key={"btnEdit" + props.index} type="primary" onPress={props.getIndex}>Edit</AwesomeButton></Link>
 			
 			<Link className='btnDelete'>
