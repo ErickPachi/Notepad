@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Notepad/static/css/main.cf11adbe.chunk.css",
-    "main.js": "/Notepad/static/js/main.2a96bfca.chunk.js",
-    "main.js.map": "/Notepad/static/js/main.2a96bfca.chunk.js.map",
+    "main.js": "/Notepad/static/js/main.c97ef74c.chunk.js",
+    "main.js.map": "/Notepad/static/js/main.c97ef74c.chunk.js.map",
     "runtime-main.js": "/Notepad/static/js/runtime-main.b9dfaa7f.js",
     "runtime-main.js.map": "/Notepad/static/js/runtime-main.b9dfaa7f.js.map",
     "static/css/2.cbd386e9.chunk.css": "/Notepad/static/css/2.cbd386e9.chunk.css",
     "static/js/2.d7f7db9f.chunk.js": "/Notepad/static/js/2.d7f7db9f.chunk.js",
     "static/js/2.d7f7db9f.chunk.js.map": "/Notepad/static/js/2.d7f7db9f.chunk.js.map",
     "index.html": "/Notepad/index.html",
-    "precache-manifest.92a33a823817848b3d607e82fa30e265.js": "/Notepad/precache-manifest.92a33a823817848b3d607e82fa30e265.js",
+    "precache-manifest.18266a71e9466a2168200fdfd694490c.js": "/Notepad/precache-manifest.18266a71e9466a2168200fdfd694490c.js",
     "service-worker.js": "/Notepad/service-worker.js",
     "static/css/2.cbd386e9.chunk.css.map": "/Notepad/static/css/2.cbd386e9.chunk.css.map",
     "static/css/main.cf11adbe.chunk.css.map": "/Notepad/static/css/main.cf11adbe.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.cbd386e9.chunk.css",
     "static/js/2.d7f7db9f.chunk.js",
     "static/css/main.cf11adbe.chunk.css",
-    "static/js/main.2a96bfca.chunk.js"
+    "static/js/main.c97ef74c.chunk.js"
   ]
 }
