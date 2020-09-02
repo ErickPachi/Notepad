@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c2ab0ec30197a00c5ea1635d0ff8380",
+    "revision": "7fbf7f4c431fe1f6b108092759bebc7f",
     "url": "/Notepad/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Notepad/static/css/2.cbd386e9.chunk.css"
   },
   {
-    "revision": "6a3e192efbf9dfda1d01",
-    "url": "/Notepad/static/css/main.cf11adbe.chunk.css"
+    "revision": "861ff6a2315723b71291",
+    "url": "/Notepad/static/css/main.1048cafc.chunk.css"
   },
   {
     "revision": "b9314d6686ffee8b6843",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Notepad/static/js/2.d7f7db9f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a3e192efbf9dfda1d01",
-    "url": "/Notepad/static/js/main.a24ac71f.chunk.js"
+    "revision": "861ff6a2315723b71291",
+    "url": "/Notepad/static/js/main.f3965829.chunk.js"
   },
   {
     "revision": "ab51950e6a8b76d0b156",
