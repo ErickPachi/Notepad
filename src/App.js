@@ -55,7 +55,8 @@ function App() {
       <div className="App">
           <Header deleteALLNote={deleteALLNote}/>
           <Routes defineIndex={onIndex} edSave={editorSave} notes={notes} noteItem={notes[noteIndex]} addNote={addNote} deleteNote={ondeleteNote} />
-          <footer className="App-footer">TAFE NSW. DIPS1, React Project 1. Made by: Erick da Fonseca Pachi</footer>
+   
+          <footer className="App-footer"> &copy; Erick's Notepad | <a href="https://www.linkedin.com/in/erick-da-fonseca-pachi-3a0331163/" class="BLinks" >LinkedIn</a> - <a href="https://erickpachi.github.io/Portfolio" class="BLinks" >Portfolio</a> - <a href="https://github.com/ErickPachi" class="BLinks" >Github</a></footer>
     </div>
   );
 }

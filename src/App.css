@@ -47,6 +47,13 @@
     position: absolute;
     right: 40px;
 }
+.BLinks{
+    color: white;
+    text-decoration: none;
+}
+.BLinks:hover{
+    color:aqua;
+}
 .Note_Row {
     padding: 20px;
     padding-top: 10px;
@@ -117,7 +124,8 @@ left: 70px;
     padding: 20px;
 }
 .App-footer {
-    padding: 2px;
+    padding: 4px;
+    padding-bottom: 6px;
     position: fixed;
     bottom: 0px;
     width: 100%;
