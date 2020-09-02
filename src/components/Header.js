@@ -35,17 +35,17 @@ function Header(props) {
 
 
         <Switch>
-                        <Route exact path="/Notepad/">
+                        <Route exact path="/Notepad">
                 <span className='btnBack'>
                     <AwesomeButton type="secondary" onPress={deleteAll}>Clear All</AwesomeButton>
                 </span>
             </Route>
-                        <Route path="/Notepad/AddN" exact>
+                        <Route path="/AddN" exact>
                 <span className='btnDelete btn-Clear'>
                     <AwesomeButton type="secondary" onPress={onBack}>Cancel</AwesomeButton>
                 </span>
                 </Route>
-                        <Route path="/Notepad/Editor" exact>
+                        <Route path="/Editor" exact>
                 <span className='btnDelete btn-Clear'>
                     <AwesomeButton type="secondary" onPress={onBack}>Cancel</AwesomeButton>
                 </span>
