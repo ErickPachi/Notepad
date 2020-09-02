@@ -12,7 +12,7 @@ function Error() {
                 <h1>Error 404</h1>
                 <p>Sorry, The Page that you are trying to reach does NOT excist</p>
             </div>
-            <Link to="/Notepad/" className='Error_btn'>
+            <Link to="/Notepad" className='Error_btn'>
                 <AwesomeButton type="secondary">Goback to Home</AwesomeButton>
             </Link>
         </div>

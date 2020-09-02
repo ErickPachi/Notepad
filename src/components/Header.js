@@ -22,39 +22,39 @@ function Header(props) {
         }
     }
     return (
-<>
-<header className="App-header">
+        <>
+            <header className="App-header">
                 <Link to="/Notepad/" className="logo"><span>NOTEPAD</span></Link>
-    <div>
+                <div>
                     <Link to="/Notepad/" className="btn">
                         <AwesomeButton type="primary">Home</AwesomeButton>
-        </Link>
+                    </Link>
                     <Link to="/Notepad/AddN" className="btn">
                         <AwesomeButton type="primary">New Note</AwesomeButton>
-        </Link>
+                    </Link>
 
 
-        <Switch>
+                    <Switch>
                         <Route exact path="/Notepad">
-                <span className='btnBack'>
-                    <AwesomeButton type="secondary" onPress={deleteAll}>Clear All</AwesomeButton>
-                </span>
-            </Route>
-                        <Route path="/AddN" exact>
-                <span className='btnDelete btn-Clear'>
-                    <AwesomeButton type="secondary" onPress={onBack}>Cancel</AwesomeButton>
-                </span>
-                </Route>
-                        <Route path="/Editor" exact>
-                <span className='btnDelete btn-Clear'>
-                    <AwesomeButton type="secondary" onPress={onBack}>Cancel</AwesomeButton>
-                </span>
-            </Route>
-        </Switch>
-    </div>
+                            <span className='btnBack'>
+                                <AwesomeButton type="secondary" onPress={deleteAll}>Clear All</AwesomeButton>
+                            </span>
+                        </Route>
+                        <Route path="/Notepad/AddN" exact>
+                            <span className='btnDelete btn-Clear'>
+                                <AwesomeButton type="secondary" onPress={onBack}>Cancel</AwesomeButton>
+                            </span>
+                        </Route>
+                        <Route path="/Notepad/Editor" exact>
+                            <span className='btnDelete btn-Clear'>
+                                <AwesomeButton type="secondary" onPress={onBack}>Cancel</AwesomeButton>
+                            </span>
+                        </Route>
+                    </Switch>
+                </div>
 
-</header>
-</>
-  );
+            </header>
+        </>
+    );
 }
 export default Header;
