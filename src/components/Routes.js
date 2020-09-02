@@ -14,7 +14,6 @@ function Routes(Props) {
             )
             } />
             <Route path="/AddN"><AddN addNote={Props.addNote} /></Route>
-            <Route path="/Notepad/" exact render={<Redirect to={{ pathname: "/" }} />}/>
             <Route><Error /></Route>
         </Switch>
     );
