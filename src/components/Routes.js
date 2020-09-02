@@ -13,7 +13,7 @@ function Routes(Props) {
             <Route path="/Notepad/Editor" exact render={props => localStorage.getItem('notes') !== null ? (<Editor saveChanges={Props.edSave} note={Props.noteItem} props />) : (<Redirect to={{ pathname: "/Notepad/" }} />
             )
             } />
-            <Route path="/Notepad//AddN"><AddN addNote={Props.addNote} /></Route>
+            <Route path="/Notepad/AddN"><AddN addNote={Props.addNote} /></Route>
             <Route><Error /></Route>
         </Switch>
     );
