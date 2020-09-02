@@ -24,28 +24,28 @@ function Header(props) {
     return (
 <>
 <header className="App-header">
-    <Link to="/" className="logo"><span>NOTEPAD</span></Link>
+                <Link to="/Notepad/" className="logo"><span>NOTEPAD</span></Link>
     <div>
-        <Link to="/" className="btn">
+                    <Link to="/Notepad/" className="btn">
                         <AwesomeButton type="primary">Home</AwesomeButton>
         </Link>
-        <Link to="/AddN" className="btn">
+                    <Link to="/Notepad/AddN" className="btn">
                         <AwesomeButton type="primary">New Note</AwesomeButton>
         </Link>
 
 
         <Switch>
-            <Route exact path="/">
+                        <Route exact path="/Notepad/">
                 <span className='btnBack'>
                     <AwesomeButton type="secondary" onPress={deleteAll}>Clear All</AwesomeButton>
                 </span>
             </Route>
-            <Route path="/AddN" exact>
+                        <Route path="/Notepad/AddN" exact>
                 <span className='btnDelete btn-Clear'>
                     <AwesomeButton type="secondary" onPress={onBack}>Cancel</AwesomeButton>
                 </span>
                 </Route>
-            <Route path="/Editor" exact>
+                        <Route path="/Notepad/Editor" exact>
                 <span className='btnDelete btn-Clear'>
                     <AwesomeButton type="secondary" onPress={onBack}>Cancel</AwesomeButton>
                 </span>

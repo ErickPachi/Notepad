@@ -46,7 +46,7 @@ function Editor(props) {
 			<h3 className="subTitle3">Editor</h3>
 
 			<form className="editor_form">
-				<Link to={(title === null) ? "/" : "/Editor"} className='btnCreate' >
+				<Link to={(title === null) ? "/Notepad/" : "/Notepad/Editor"} className='btnCreate' >
 					<AwesomeButton type="secondary" onPress={onSaveClick}>Save</AwesomeButton>
 				</Link>
 				<br />

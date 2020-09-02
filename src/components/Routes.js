@@ -8,12 +8,12 @@ import Error from './Error';
 function Routes(Props) {
     return (
         <Switch>
-            <Route path="/" exact><Home indexNote={Props.defineIndex} notes={Props.notes} deleteRow={Props.deleteNote} addNote={Props.addNote}/></Route>
+            <Route path="/Notepad" exact><Home indexNote={Props.defineIndex} notes={Props.notes} deleteRow={Props.deleteNote} addNote={Props.addNote}/></Route>
 
-            <Route path="/Editor" exact render={props => localStorage.getItem('notes') !== null ? (<Editor saveChanges={Props.edSave} note={Props.noteItem} props/>) : (<Redirect to={{ pathname: "/" }} />
+            <Route path="/Notepad/Editor" exact render={props => localStorage.getItem('notes') !== null ? (<Editor saveChanges={Props.edSave} note={Props.noteItem} props />) : (<Redirect to={{ pathname: "/Notepad/" }} />
             )
             } />
-            <Route path="/AddN"><AddN addNote={Props.addNote} /></Route>
+            <Route path="/Notepad//AddN"><AddN addNote={Props.addNote} /></Route>
             <Route><Error /></Route>
         </Switch>
     );

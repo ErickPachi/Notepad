@@ -49,7 +49,7 @@ function AddN(props) {
 			<h3 className="subTitle3 NN">New Note</h3>
 
 			<form className="editor_form">
-				<Link to={(title === null) ? "/" : "/AddN"} className='btnCreate' >
+				<Link to={(title === null) ? "/Notepad" : "/Notepad/AddN"} className='btnCreate' >
 					<AwesomeButton type="secondary" onPress={onAddClick} >Create</AwesomeButton>
 				</Link>
 				<br />
